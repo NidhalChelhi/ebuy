@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "863948414635",
+    "project_id": "e-buy-196f6",
+    "storage_bucket": "e-buy-196f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863948414635:android:09aab116e2ed75d6bba1ee",
+        "android_client_info": {
+          "package_name": "com.example.ebuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863948414635-m070gt611ci29pkpqqtea3lasqhjh77q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ebuy",
+            "certificate_hash": "ae0bd49395ce323eada7238608ba8ee24d156cdc"
+          }
+        },
+        {
+          "client_id": "863948414635-n3lepcugmgdrgq4tv62eqfskmc431i58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlNUvaZO2weo1I7U8RAPz2EIP70dfkdxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863948414635-n3lepcugmgdrgq4tv62eqfskmc431i58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

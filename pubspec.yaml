@@ -1,0 +1,66 @@
+name: ebuy
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.1.4
+  unicons: ^2.0.1
+  google_sign_in: ^5.0.2
+  firebase_core: ^1.1.1
+  firebase_auth: ^1.1.4
+  flutter_facebook_auth: "^1.0.0"
+  cloud_firestore: ^2.1.0          
+  email_validator: '^1.0.6'                                                           
+  slide_countdown_clock:
+    path: ./plugins/slide_countdown_clock-1.0.3/
+  flutter_launcher_icons: ^0.9.0
+  flutter_rating_bar: ^4.0.0
+  carousel_slider: ^3.0.0
+  sqflite: ^2.0.0+3
+  path: ^1.8.0
+  shared_preferences: ^2.0.5
+  flutter_svg: ^0.22.0
+  flutter_slidable: ^0.6.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo/BlueMaxLogo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/logo/
+    - assets/images/avatars/
+    - assets/images/icons/
+
+
+  fonts:
+    - family: SourceSansPro
+      fonts:
+        - asset: assets/fonts/SourceSansPro.ttf
+    - family: Ubuntu
+      fonts:
+        - asset: assets/fonts/Ubuntu/Ubuntu-Regular.ttf
+        - asset: assets/fonts/Ubuntu/Ubuntu-Bold.ttf
+          weight: 600
+        - asset: assets/fonts/Ubuntu/Ubuntu-Italic.ttf
+          style: italic
